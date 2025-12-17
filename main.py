@@ -10,7 +10,7 @@ from telegram.ext import (
 )
 
 
-BOT_TOKEN = os.getenv("8405025997:AAFRyBEu92LfUL2ddkvycRQmyao9eYUIYsc")
+BOT_TOKEN = os.environ.get("8405025997:AAFRyBEu92LfUL2ddkvycRQmyao9eYUIYsc")
 ADMINS = [1625817019]
 
 
